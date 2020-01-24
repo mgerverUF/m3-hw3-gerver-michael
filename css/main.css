@@ -21,3 +21,30 @@ button {
   text-transform: uppercase;
   padding: 2% 4% 2% 4%;
 }
+p {
+  color: #080808;
+  font-weight: 400;
+  font-size: 1em;
+}
+header nav {
+  background-color: #f8df1f;
+  padding: 5% 0 2% 0;
+}
+header nav ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+header nav ul li {
+  display: inline;
+  padding-right: 5%;
+}
+header nav ul #currentPage {
+  text-transform: uppercase;
+  color: #ee252f;
+  padding: 0;
+}
+footer {
+  background-color: #080808;
+  padding: 3% 0 3% 0;
+  border-top: 5px solid #f8df1f;
+}

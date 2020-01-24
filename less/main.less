@@ -8,3 +8,38 @@ body {
 button {
     .btn-primary();
 }
+
+p {
+    .paragraph();
+}
+
+//Header Style
+header {
+    nav {
+        background-color: @yellow;
+        padding: 5% 0 2% 0;
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+
+            li {
+                display: inline;
+                padding-right: 5%;
+            }
+
+            #currentPage {
+                text-transform: uppercase;
+                color: @red;
+                padding: 0;
+            }
+        }
+    }
+}
+
+// Footer 
+footer {
+    background-color: @black;
+    padding: 3% 0 3% 0;
+    border-top: 5px solid @yellow;
+}
