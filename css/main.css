@@ -36,6 +36,10 @@ p {
 #grayArticle {
   background-color: #f3f3f3;
 }
+header .jumbotron {
+  background-image: url('img/banner-bg.png') fixed center no-repeat;
+  background-size: cover;
+}
 header nav {
   background-color: #f8df1f;
   padding: 5% 0 2% 0;
